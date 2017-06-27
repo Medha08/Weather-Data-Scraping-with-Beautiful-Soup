@@ -5,7 +5,7 @@ Webscraping is illegal but here is the sample code if you want to use it for non
 
 ```markdown
 
-`import requests
+import requests
 from bs4 import BeautifulSoup
 page = requests.get("http://forecast.weather.gov/MapClick.php?lat=37.7772&lon=-122.4168")
 soup = BeautifulSoup(page.content,'html.parser')
@@ -21,5 +21,5 @@ print (short_desc)
 print(periods)
 print(temperature)
 print (period_days)
-`
+
 
